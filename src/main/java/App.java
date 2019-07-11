@@ -12,7 +12,7 @@ public class App {
 
     Mobile mobileIphone = new Iphone("zr", "red", "apple");
     mobileIphone.printMessage("11");
-    Mobile andriodPhone = new AndriodPhone("zr", "red", "huawei");
-    andriodPhone.printMessage("22");
+    Mobile mobileAndroid = new AndriodPhone("zr", "red", "huawei");
+    mobileAndroid.printMessage("22");
   }
 }

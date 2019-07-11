@@ -8,6 +8,6 @@ public class AndriodPhone extends Mobile {
 
   @Override
   public void printMessage(String message) {
-    System.out.println("<Andriod>Message : ["+message+"]");
+   super.printMessage("<Andriod>Message : ["+message+"]");
   }
 }

@@ -1,4 +1,4 @@
-public abstract class Mobile {
+public class Mobile {
 
   private String name;
   private String color;
@@ -24,7 +24,9 @@ public abstract class Mobile {
   public String getColor() {
     return color;
   }
-  public  abstract void printMessage(String message);
+  public   void printMessage(String message){
+    System.out.println(message);
+  }
   public void setColor(String color) {
     this.color = color;
   }

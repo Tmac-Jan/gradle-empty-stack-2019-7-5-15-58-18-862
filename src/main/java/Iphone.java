@@ -6,6 +6,6 @@ public class Iphone extends Mobile {
   }
   @Override
   public void printMessage(String message) {
-    System.out.println("<iPhone>Message : +["+message+"]");
+    super.printMessage("<iPhone>Message : ["+message+"]");
   }
 }
