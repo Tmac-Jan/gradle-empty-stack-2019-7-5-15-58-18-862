@@ -8,11 +8,13 @@ public class App {
   }
 
   public static void main(String[] args) {
-//    System.out.println(new App().getGreeting());
-
     Mobile mobileIphone = new Iphone("zr", "red", "apple");
     mobileIphone.printMessage("11");
     Mobile mobileAndroid = new AndriodPhone("zr", "red", "huawei");
     mobileAndroid.printMessage("22");
+    Person firstPerson = new Person(new Iphone("zr1", "red", "apple"));
+    firstPerson.printMessage("p1");
+    Person secondPerson = new Person(new AndriodPhone("zr2", "yellow", "huawei"));
+    secondPerson.printMessage("p2");
   }
 }
